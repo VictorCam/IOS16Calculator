@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%sveltekit.assets%/favicon.png" />
+  <meta name="viewport" content="width=device-width" />
+  <style>
+    html {
+      font-size: 6.25%;
+    }
+
+    body {
+      font-size: 16rem;
+      background: var(--black);
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+  </style>
+  %sveltekit.head%
+</head>
+
+<body data-sveltekit-preload-data="hover">%sveltekit.body%</body>
+
+</html>
